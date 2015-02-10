@@ -76,6 +76,6 @@
 (if (file-exists-p user-specific-dir)
   (mapc #'load (directory-files user-specific-dir nil ".*el$")))
 (if (file-exists-p user-specific-config) (load user-specific-config))
-(if (file-exists-p custom-config) (load custom-file))
+(if (file-exists-p custom-config) (load custom-config))
 
 ;;; init.el ends here
