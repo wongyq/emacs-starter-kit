@@ -11,7 +11,13 @@
                                    'yaml-mode
                                    'find-file-in-project
                                    'magit
-                                   'gist)
+                                   'gist
+                                   'auto-complete
+                                   'autopair
+                                   'window-number
+                                   'expand-region
+                                   'flymake-python-pyflakes
+                                   'flymake-cursor)
   "Libraries that should be installed by default.")
 
 (defun starter-kit-elpa-install ()
