@@ -43,5 +43,11 @@
 (require 'flymake-cursor)
 
 ;; to make vc change log visible
-;;(set-background-color "grey")
+;;(set-background-color "black")
 
+;; add find-dired short cut
+(global-set-key (kbd "M-q") 'find-dired)
+
+;; feng-highlight
+(require 'feng-highlight)
+(global-set-key (kbd "M-i") 'feng-highlight-at-point)
