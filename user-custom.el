@@ -55,3 +55,6 @@
 ;; imenu-anywhere
 (require 'imenu-anywhere)
 (global-set-key (kbd "M-/") 'imenu-anywhere)
+
+;; find-file-in-project
+(global-set-key (kbd "C-x t") 'find-file-in-project)
