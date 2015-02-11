@@ -51,3 +51,7 @@
 ;; feng-highlight
 (require 'feng-highlight)
 (global-set-key (kbd "M-i") 'feng-highlight-at-point)
+
+;; imenu-anywhere
+(require 'imenu-anywhere)
+(global-set-key (kbd "M-/") 'imenu-anywhere)

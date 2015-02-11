@@ -18,7 +18,8 @@
                                    'expand-region
                                    'flymake-python-pyflakes
                                    'flymake-cursor
-                                   'lua-mode)
+                                   'lua-mode
+                                   'cl-lib)
   "Libraries that should be installed by default.")
 
 (defun starter-kit-elpa-install ()
