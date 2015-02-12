@@ -20,7 +20,8 @@
                                    'flymake-cursor
                                    'lua-mode
                                    'cl-lib
-                                   'yasnippet)
+                                   'yasnippet
+                                   'smooth-scrolling)
   "Libraries that should be installed by default.")
 
 (defun starter-kit-elpa-install ()
