@@ -5,6 +5,9 @@
             (setq tab-width 4)
             (setq python-indent 4)))
 
+;; yasnippet
+(yas-global-mode 1)
+
 ;; Live completion with auto-complete
 ;; (see http://cx4a.org/software/auto-complete/)
 (require 'auto-complete-config nil t)
@@ -58,3 +61,7 @@
 
 ;; find-file-in-project
 (global-set-key (kbd "C-x t") 'find-file-in-project)
+
+;; find-search
+(require 'file-search)
+(global-set-key (kbd "M-e") 'search-directory)

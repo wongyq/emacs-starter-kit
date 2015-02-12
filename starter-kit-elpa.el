@@ -19,7 +19,8 @@
                                    'flymake-python-pyflakes
                                    'flymake-cursor
                                    'lua-mode
-                                   'cl-lib)
+                                   'cl-lib
+                                   'yasnippet)
   "Libraries that should be installed by default.")
 
 (defun starter-kit-elpa-install ()
