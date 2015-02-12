@@ -21,7 +21,8 @@
                                    'lua-mode
                                    'cl-lib
                                    'yasnippet
-                                   'smooth-scrolling)
+                                   'smooth-scrolling
+                                   'hungry-delete)
   "Libraries that should be installed by default.")
 
 (defun starter-kit-elpa-install ()

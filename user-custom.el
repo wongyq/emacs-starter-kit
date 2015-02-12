@@ -66,4 +66,6 @@
 (require 'file-search)
 (global-set-key (kbd "M-e") 'search-directory)
 
-
+;; hungry-delete
+(require 'hungry-delete)
+(global-hungry-delete-mode)
