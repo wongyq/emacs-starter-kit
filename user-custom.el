@@ -46,7 +46,12 @@
 (require 'flymake-cursor)
 
 ;; to make vc change log visible
-;;(set-background-color "black")
+(set-background-color "black")
+(set-face-foreground 'font-lock-comment-face "gold")
+(set-face-foreground 'region "red")  ;; 区域前景颜色设为红色
+(set-face-background 'region "blue") ;; 区域背景色设为蓝色
+(set-face-foreground 'flymake-warnline "black")
+(set-face-background 'flymake-warnline "green")
 
 ;; add find-dired short cut
 (global-set-key (kbd "M-q") 'find-dired)
